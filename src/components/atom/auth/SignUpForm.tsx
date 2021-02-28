@@ -11,6 +11,7 @@ const SignUpForm: FC = () => {
         e.preventDefault()
         try {
             await auth.createUserWithEmailAndPassword(email, password)
+            setSuccess(true)
         } catch (err) {
             alert(err.message)
         }
