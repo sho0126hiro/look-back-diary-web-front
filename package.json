@@ -1,0 +1,33 @@
+{
+  "name": "look-back-diary-web-front",
+  "version": "1.0.0",
+  "description": "look-back-diary web-front",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sho0126hiro/look-back-diary-web-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sho0126hiro/look-back-diary-web-front/issues"
+  },
+  "homepage": "https://github.com/sho0126hiro/look-back-diary-web-front#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "typescript": "^4.2.2"
+  }
+}
